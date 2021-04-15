@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#top img{
+    width: 200px;
+    height: 100%;
+}
+#top{
+    display: flex;
+}
+.profile, .profile h3{
+    padding:15px;
+}
+.profile h3{
+    display: inline-block;
+    border-bottom: red 4px solid;
+    padding:15px 0 0 0;
+    margin-bottom: 15px;
+}
+#mid{
+    display: flex;
+padding: 20px;
+color: orange;
+background-color: black;
+font-size: 25px;
+}
+#lower{
+    display: flex;
+    width: 100%;
+}
+
+#left > #expertise, #education, #contact {
+   padding: 15px;
+   color: white;
+}
+
+i{
+    color: orange;
+}
+#expertise{
+    background-color: rgba(0,0,0,0.75);
+}
+#education{
+    background-color: rgba(0,0,0,0.8);
+}
+#contact{
+    background-color: rgba(0,0,0,0.85);
+    height: 860px;
+}
+#projects {
+    padding: 15px;
+}
+#projects h3{
+    display: inline-block;
+    border-bottom: 4px solid red;
+}
+#project{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.pro{
+    margin:40px 0 0 0;
+}
+.push{
+    margin-top: 8px;
+}
+iframe{
+    width:60em;
+    height:300px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: blue;
+}
+@media screen and (max-width:1240px) {
+    iframe{
+        width:50em;  
+    }
+}
+@media screen and (max-width:1030px) {
+    iframe{
+        width:40em;  
+    }
+}
+@media screen and (max-width:870px) {
+    iframe{
+        width:30em;
+        
+    }
+    
+}
+@media screen and (max-width:680px) {
+    iframe{
+        width:20em;
+        
+    }
+    
+}
