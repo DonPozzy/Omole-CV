@@ -92,14 +92,25 @@ a:hover{
 @media screen and (max-width:870px) {
     iframe{
         width:30em;
-        
     }
-    
 }
 @media screen and (max-width:680px) {
     iframe{
         width:20em;
-        
     }
-    
+}
+@media screen and (max-width:556px){
+    img{
+   display:none;
+    }
+    #lower{
+        display: flex;
+        flex-direction: column;
+    }
+#contact{
+    height:160px
+}
+#mid{
+    font-size:15px;
+}
 }
